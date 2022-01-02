@@ -1,0 +1,7 @@
+__pycache__
+.idea
+venv
+data
+dockerfiles
+.env
+.env.db
