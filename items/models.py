@@ -16,7 +16,7 @@ class Item(models.Model):
 
 
 class ItemImage(models.Model):
-    item = models.ForeignKey(Item, on_delete=models.CASCADE, related_name='images')
+    item = models.ForeignKey(Item, on_delete=models.CASCADE, related_name='images', verbose_name='Товар')
     image = models.ImageField(verbose_name='Изображение')
 
     def __str__(self):

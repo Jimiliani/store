@@ -1,5 +1,9 @@
 from django.contrib import admin
+from django.contrib.auth.models import User, Group
 from items.models import Item, ItemImage
+
+admin.site.unregister(User)
+admin.site.unregister(Group)
 
 
 class ItemImageInlineAdmin(admin.StackedInline):
