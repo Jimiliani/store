@@ -5,3 +5,4 @@ data
 dockerfiles
 .env
 .env.db
+static
